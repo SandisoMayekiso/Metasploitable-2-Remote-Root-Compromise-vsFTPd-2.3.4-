@@ -25,6 +25,7 @@ nmap -sn 192.168.181.0/24
 
 
 nmap -sV 192.168.181.129
+
 <img width="749" height="547" alt="image" src="https://github.com/user-attachments/assets/afc85ca0-a9f4-4aa9-9453-29d40a6bf568" />
 
 Key Finding
@@ -73,55 +74,55 @@ Additional enumeration was performed:
 
 <img width="1152" height="534" alt="image" src="https://github.com/user-attachments/assets/8c685b5f-0acc-4451-af1d-44de4005098e" />
 
-📈 Impact Assessment
+## **📈 Impact Assessment**
 
 An attacker exploiting this vulnerability can:
 
-Execute arbitrary commands as root
+  Execute arbitrary commands as root
 
-Access sensitive system files
+  Access sensitive system files
 
-Maintain persistence
+  Maintain persistence
 
-Fully compromise the host
+  Fully compromise the host
 
-This demonstrates the critical risk of running outdated services.
+  This demonstrates the critical risk of running outdated services.
 
-🛡️ Mitigation & Defensive Recommendations
+## **🛡️ Mitigation & Defensive Recommendations**
 
-Remove or upgrade vulnerable FTP services
+  Remove or upgrade vulnerable FTP services
 
-Disable FTP in favor of SFTP
+  Disable FTP in favor of SFTP
 
-Enforce strict patch management
+  Enforce strict patch management
 
-Restrict network exposure of internal services
+  Restrict network exposure of internal services
 
-Apply the principle of least privilege
+  Apply the principle of least privilege
 
-🧠 Key Learnings
+## **🧠 Key Learnings**
 
-Importance of service version enumeration
+  Importance of service version enumeration
 
-Value of researching known vulnerabilities
+  Value of researching known vulnerabilities
 
-Practical exploitation using Metasploit
+  Practical exploitation using Metasploit
 
-Understanding real-world misconfigurations
+  Understanding real-world misconfigurations
 
-Proper documentation of penetration testing activities
+  Proper documentation of penetration testing activities
 
-⚠️ Legal & Ethical Disclaimer
+## **⚠️ Legal & Ethical Disclaimer**
 
 This project was conducted solely in a controlled lab environment on intentionally vulnerable systems. No unauthorized systems were accessed. This documentation is for educational purposes only.
 
-🔗 References
+## 🔗 References
 
-Metasploitable Project
+  Metasploitable Project
 
-Metasploit Framework Documentation
+  Metasploit Framework Documentation
 
-Nmap Documentation
+  Nmap Documentation
 
 
 
